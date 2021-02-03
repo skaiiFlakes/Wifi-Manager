@@ -25,10 +25,10 @@ if show_stored == True:
 
     accountnum = 1
     for wifi in wifis:
-        print(f"===============ACCOUNT {accountnum}===============")
-        print(f"ssid: {wifi[0]}")
-        print(f"password: {wifi[1]}\n")
         content += f"===============ACCOUNT {accountnum}===============\n"
         content += f"ssid: {wifi[0]}\n"
         content += f"password: {wifi[1]}\n\n"
         accountnum += 1
+        
+print(content)
+     
