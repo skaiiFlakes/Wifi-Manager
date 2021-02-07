@@ -3,7 +3,11 @@
 pip install subprocess
 
 pip install re
+
+pip install concurrent.futures
+
+pip install bs4
 ## Code Configuration
-None
+add necessary path to csv file
 ## Running The Code
 Run in terminal/ cmd
