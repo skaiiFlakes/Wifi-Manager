@@ -5,7 +5,7 @@ import concurrent.futures
 
 os.system('cls')
 s_proxies = []
-path = r"C:\Users\ica\Coding Projects\Python\viewBot\proxylist.csv"
+path = r"path" #add path to csv file
 
 def getProxies_by_online():
     r = requests.get('https://free-proxy-list.net/')
